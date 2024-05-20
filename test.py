@@ -14,7 +14,7 @@ def remove_duplicates(word_list):
     unique_words = list(set(word_list))
     return unique_words
 
-input_text = "This is An Example TEXT with some duplicate words this This."
+input_text = "This is An Example Text with some duplicate words this This."
 lowercase_text = convert_to_lowercase(input_text)
 word_list = split_text(lowercase_text)
 unique_words = remove_duplicates(word_list)
