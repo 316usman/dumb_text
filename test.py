@@ -1,3 +1,7 @@
+def remove_punctuation(text):
+    translator = str.maketrans('', '', string.punctuation)
+    return text.translate(translator)
+    
 def convert_to_lowercase(text):
     lowercase_text = text.lower()
     return lowercase_text
